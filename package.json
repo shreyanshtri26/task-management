@@ -1,0 +1,27 @@
+{
+  "name": "task-management",
+  "version": "1.0.0",
+  "description": "Advanced Task Management System",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.0",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.13.3",
+    "socket.io": "^4.3.1",
+    "task-management": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
